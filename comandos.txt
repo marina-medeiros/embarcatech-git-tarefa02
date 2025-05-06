@@ -1,0 +1,55 @@
+Nome: Marina Medeiros de Araújo Leite
+
+Comandos utilizados:
+
+$ mkdir tarefa02 && cd tarefa02
+
+$ git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+
+$ cd curso-branchs-ifrn-ead/
+
+$ touch texto.txt
+
+$ nano texto.txt
+
+$ git add .
+
+$ git commit -m "texto.txt: nome"
+
+$ git checkout -b feature-1
+
+$ nano texto.txt
+
+$ git add texto.txt
+
+$ git commit -m "texto.txt: curso"
+
+$ git checkout main
+
+$ nano texto.txt
+
+$ git add texto.txt
+
+$ git commit -m "texto.txt: instituicao"
+
+$ git merge feature-1
+
+$ nano texto.txt
+
+$ git commit -m "resolvendo conflito"
+
+$ git checkout -b add-comandos
+
+$ touch comandos.txt
+
+$ nano comandos.txt
+
+$ git add comandos.txt
+
+$ git commit -m "criando comandos.txt"
+
+$ git remote add origin-atividade git@github.com:marina-medeiros/embarcatech-git-tarefa02.git
+
+$ git push origin-atividade main
+
+$ git push origin-atividade add-comandos
